@@ -1,13 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;500;600;700&display=swap');
-body{
+
+body {
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-size: 16px;
 }
-img{
+
+img {
     width: 100%;
 }
-.slider-next{
+
+.slider-next {
     width: 45px;
     height: 45px;
     display: inline-flex;
@@ -16,7 +19,8 @@ img{
     border-radius: 50%;
     border: 0;
     font-size: 20px;
-    background: linear-gradient(276deg, #F86161 0%, #FFB23F 100%);;
+    background: linear-gradient(276deg, #F86161 0%, #FFB23F 100%);
+    ;
     color: white;
     transition: 0.3s;
     position: absolute;
@@ -27,7 +31,8 @@ img{
 
 
 }
-.slider-prev{
+
+.slider-prev {
     width: 45px;
     height: 45px;
     border-radius: 50%;
@@ -36,10 +41,48 @@ img{
     align-items: center;
     border: 0;
     font-size: 20px;
-    background: linear-gradient(276deg, #F86161 0%, #FFB23F 100%);;
+    background: linear-gradient(276deg, #F86161 0%, #FFB23F 100%);
+    ;
     color: white;
     transition: 0.3s;
     position: absolute;
     top: 50%;
     right: -90px;
+}
+
+.counter-section {
+    padding: 100px 0;
+    background: #d89393;
+}
+.counter-cards{
+    display: flex;
+    gap: 50px;
+}
+
+.counter-cards .counter-card {
+    width: 250px;
+    padding: 40px 64px 40px 32px;
+    align-items: center;
+    border-radius: 5px;
+    border: 1px solid #F4F4F4;
+    background: #FFF;
+}
+
+.counter-cards .counter-card .counter-img {
+
+    border-radius: 5px;
+    background: rgba(76, 64, 247, 0.05);
+    padding: 12px;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+.counter-cards .counter-card .counter-img img{
+    width: 20px;
+    height: 20px;
+    
+    
+}
+.counter-cards .counter-card h2 {
+    font-size: 36px;
+    font-weight: 700;
 }
