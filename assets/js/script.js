@@ -50,6 +50,12 @@ $(document).ready(function () {
     time:1600
 });
 
+AOS.init({
+
+  duration: 1300,
+  delay:60,
+});
+
 
 
 });
